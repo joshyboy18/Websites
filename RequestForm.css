@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     border-color: red;
+    border-style: solid;
 }
 
 .div-info {
