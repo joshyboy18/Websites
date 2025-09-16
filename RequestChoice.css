@@ -1,6 +1,99 @@
 body {
 
     background-color: rgb(83, 83, 83);
+
+
+}
+
+.div-everything {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    height: 500px;
     
 
 }
+
+.IT-div {
+
+    display: inline-block;
+    width: 300px;
+    
+}
+
+.IT-text {
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.IT-button {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+    border-style: solid;
+    border-color: black;
+    background-color: orange;
+    transition: transform 0.3s background-color 0.5s;
+    margin-left: 100px;
+    background-image: url("Computer.png");
+    background-size: cover;
+}
+
+.IT-button:hover {
+
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-5px);
+}
+
+
+.Maintenance-div {
+
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 50px;
+
+}
+
+.Maintenance-text {
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.Maintenance-button {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    background-color: orange;
+    transition: transform 0.3s background-color 0.5s;
+    margin-left: 100px;
+    background-image: url("Hammer.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.Maintenance-button:hover {
+
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-5px);
+
+}
+
+

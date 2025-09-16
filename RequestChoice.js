@@ -1,5 +1,10 @@
 
 function ITclicked() {
 
-    window.location.href = "RequestForm.html";
+    window.open("RequestForm.html", "_self");
+}
+
+function MaintenanceClicked() {
+
+    window.open("MaintenanceForm.html", "_self");
 }
