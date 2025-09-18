@@ -96,3 +96,117 @@ body {
     border-radius: 5px;
     
 }
+
+.wing-text {
+
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wing-number {
+
+    margin-top: 5px;
+    display: block;
+    margin-left: 10x;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 15px;
+    
+}
+
+.RequestDetails {
+
+    border-style: solid;
+    border-color: black;
+    display: block;
+    margin-left: 30px;
+    margin-top: 15px;   
+    border-radius: 5px; 
+    border-width: 2px;
+}
+
+.Request-text {
+
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    
+}
+
+.SubmitReset {
+
+
+    margin-left: 95px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Submit {
+
+    border-radius: 5px;
+    height: 30px;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    transition: transform 0.3s;
+
+}
+
+.Submit:hover {
+
+    background-color: rgb(109, 255, 109);
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-2px);
+
+}
+
+.Submit:active {
+
+    background-color: green;
+}
+
+.Reset {
+
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(255, 136, 0);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    transition: transform 0.3s;
+}
+
+.Reset:active {
+
+    background-color: rgb(255, 136, 0);
+}
+
+.Reset:hover {
+
+    background-color: rgb(255, 221, 109);
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-2px);
+
+}
+
+.UrgentButton {
+
+    margin-left: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.WaitButton {
+    margin-left: 100px;
+    display: inline-block;
+}
