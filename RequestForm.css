@@ -157,6 +157,7 @@ body {
     border-color: black;
     border-width: 2px;
     transition: transform 0.3s;
+    color: white;
 
 }
 
@@ -183,6 +184,7 @@ body {
     border-color: black;
     border-width: 2px;
     transition: transform 0.3s;
+    color: white;
 }
 
 .Reset:active {
