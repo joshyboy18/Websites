@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="AlmaManager.css">
+    <script src = "AlmaManager.js"></script>
+
+    <title>AlmaManager</title>
+    
+</head>
+
+<body>
+    
+    <div class = "intro-div" id = "intro_div">
+        <p class = "intro-message" id = "intro_message">This is an hour manager that will get directed to Mrs. Alma. If you have to miss any days, type in the date, the amount of time you will be gone, and the reason for your absence. <br> Thank you!
+        </p>
+    </div>
+
+    <div class = "form-div" id = "form_div">
+
+        <form method = "POST" action = "https://formsubmit.co/joshua.robinson@lemondenorman.org">
+
+            <div class = "full-name-div" id = "full_name_div">
+
+                <p class = "full-name-label"> Full Name 
+        
+                </p>
+
+                <input type = "text" class = "full-name" id = "full_name" name = "full_name" placeholder = "Firstname Lastname" required>
+
+            </div>
+
+            <div class = "email-div" id = "email_div">
+
+                <p class = "email-label"> Email </p>
+
+                <input type = "email" class = "email-input" id = "email_input" name = "email_input" placeholder = "email@example.com" required>
+
+            </div>
+
+            <div class = "date-div" id = "date_div">
+
+                <p class = "date-label"> Date of Absence </p>
+
+                <input type = "date" class = "date-input" id = "date_input" name = "date_input" required>
+                <button class = "add-date" id = "add_date" type = "button" onclick = "addDate()"> Add Date </button>
+                <button class = "reset-date" id = "reset_date" type = "button" onclick = "resetDates()"> Reset Dates </button>
+
+            </div>
+
+            <div class = "time-div" id = "time_div">
+
+                <p class = "time-label"> Time of Absence (in hours) </p>
+
+                <input type = "text" class = "time-input" id = "time_input" name = "time_input" placeholder = "1 hour" required>
+
+            </div>
+
+            <div class = "reason-div" id = "reason_div">
+
+                <p class = "reason-label"> Reason for Absence </p>
+
+                <textarea rows = 10 cols = 30 class = "reason-input" id = "reason_input" name = "reason_input" placeholder = "Type your reason here..." required></textarea>
+
+            </div>
+
+            <div class = "buttons-div" id = "buttons_div"> 
+
+                <div class = "submit-div" id = "submit_div">
+
+                    <input type = "submit" class = "submit-button" id = "submit_button" value = "Submit" onclick = "addToForm()">
+            
+                </div>
+
+                <div class = "reset-div" id = "reset_div">
+
+                    <input type = "reset" class = "reset-button" id = "reset_button" value = "Reset" onclick = "removeEverything()">
+
+                </div>
+            
+            </div>
+
+        </form>
+    </div>
+</body>

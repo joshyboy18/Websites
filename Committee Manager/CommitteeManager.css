@@ -1,0 +1,89 @@
+body {
+
+    background-color: rgb(0, 0, 114);
+
+}
+
+.Committee-header {
+
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form-div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    
+}  
+
+.form-name, .form-committee, .form-email {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.input-name, .input-committee, .input-email {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+
+}
+
+.submit-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 197, 49);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s, background-color 0.5s;
+}
+
+.export-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 197, 49);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s, background-color 0.5s;
+}
+.submit-button:hover, .export-button:hover {
+
+    transform: translateY(-3px);
+    cursor: pointer;
+    background-color:rgb(2, 255, 65);
+    color: white;
+}
